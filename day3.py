@@ -31,6 +31,7 @@ print(f"Floor Division: {a // b}")
 print(f"Modulus: {a % b}")
 print(f"Exponentiation: {a ** b}")
 
+
 # Simple Calculator
 
 # Step 1: Get user input for two numbers
