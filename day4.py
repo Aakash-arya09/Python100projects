@@ -42,8 +42,14 @@ elif num1 > num2:
 else:
     print(f"{num2} is greater than {num1}")
 
+
 # Step 3: Check if any number is zero
 if num1 == 0 or num2 == 0:
     print("\nAt least one number is zero.")
 else:
     print("\nBoth numbers are non-zero.")
+    
+    
+    #python program to check if a number is positive, negative or zero
+    
+    
