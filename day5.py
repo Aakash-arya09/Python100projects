@@ -10,13 +10,13 @@ Original file is located at
 for variable in range(start, stop, step):
   # Code to repeat
 
-for i in range(5, 0, -1):
+ for i in range(5, 0, -1):
   print(i)
 
-while condition:
+ while condition:
   # Code to repeat
 
-count = 0
+  count = 0
 while count < 5:
   print(count)
 
@@ -43,3 +43,5 @@ while start > 0:
 
 # Step 3: Print final message
 print("Countdown Complete!")
+
+
