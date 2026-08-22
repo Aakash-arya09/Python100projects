@@ -50,6 +50,3 @@ else:
     print("\nBoth numbers are non-zero.")
     
     
-    #python program to check if a number is positive, negative or zero
-    
-    
