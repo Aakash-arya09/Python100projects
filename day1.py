@@ -30,3 +30,6 @@ print(f"Hello, {name}! 👋")
 print(f"Welcome to the world of Python Programming.")
 print(f"It's great to know that you love {hobby}.")
 print(f"Get ready to build something amazing today.")
+
+
+#Day 1: is complete. Next, we will move on to Day 2, where we will explore variables, data types, and basic operations in Python.
