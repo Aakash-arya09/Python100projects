@@ -58,15 +58,3 @@ print(f"Hello, {name}! 👋")
 print(f"You are {age} years old and {color} is a beautiful color!")
 print("You're now ready to start your Python adventure 🚀🐍")
 
-
-
-
- 
-
-
-# practice
-
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
-result = num1 + num2
-print(f"The sum of {num1} and {num2} is {result}")
