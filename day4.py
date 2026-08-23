@@ -21,6 +21,7 @@ else:
 a = 2
 b = 20
 
+
 if a > 5 or b < 15:
   print("Either one of them is true")
 else:
