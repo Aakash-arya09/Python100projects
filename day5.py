@@ -44,5 +44,3 @@ while start > 0:
 
 # Step 3: Print final message 
 print("Countdown Complete!")
-
-#HAve a great day!
