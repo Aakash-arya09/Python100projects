@@ -16,7 +16,7 @@ if x < y:
     
     
     
-def name():
-    print("Hello, my name is Vivian.")
+def name(user):
+    print(f"Hello, {user}! How are You .")
     
-name()
+name("ramu")
