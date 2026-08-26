@@ -9,7 +9,6 @@ Original file is located at
 
 # my_tuple = (1, 2, 3)
 
-
 # print(fruits[0])
 
 # print(fruits[-1])
@@ -22,7 +21,6 @@ x, y, z = coordinates
 
 fruits = ("apple", "banana", "cherry")
 print(len(fruits))
-
 
 print(fruits + ("orange",))
 
