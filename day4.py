@@ -19,6 +19,7 @@ else:
   print("The number is less than 5.")
 
 a = 2
+
 b = 20
 
 
