@@ -90,4 +90,7 @@ while True:
     
     
     
+    #life is very hard
+    
+    
     
