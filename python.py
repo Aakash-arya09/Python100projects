@@ -20,8 +20,3 @@ def name(user):
     print(f"Hello, {user}! How are You .")
     
 name("ramu")
-name("ramu")
-name("ramu")
-name("ramu")
-name("ramu")
-name("ramu")
