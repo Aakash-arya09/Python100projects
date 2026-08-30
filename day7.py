@@ -90,7 +90,7 @@ while True:
     
     
     
-    #life is very hard
+    #life is very hard for poor peoples
     
     
     
