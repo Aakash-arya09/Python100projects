@@ -65,3 +65,9 @@ if extra_ingredients:
     print(f"You have extra ingredients: {', '.join(extra_ingredients)}")
 else:
     print("You have all the ingredients needed.")
+    
+    
+    
+    
+    
+    #the last contribution of this code is to create an Ingredients Checker program that allows users to input the ingredients they have and compares them with a predefined set of recipe ingredients. It then informs the user about any missing or extra ingredients, helping them determine if they can proceed with the recipe or if they need to acquire additional items.
