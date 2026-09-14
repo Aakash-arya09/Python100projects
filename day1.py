@@ -35,7 +35,7 @@ print(f"Get ready to build something amazing today.")
 
 #Day 1: is complete. Next, we will move on to Day 2, where we will explore variables, data types, and basic operations in Python.
 
-
+#ohh i forget my Duolingo
 
 
 
