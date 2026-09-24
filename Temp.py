@@ -2,10 +2,9 @@
 # #     content = file.write("New movie added.")             
 # #     print(content)
 
-
-# with open ("movies.txt", "a") as file:
-#     content = file.write("New movie added. may i come in")             
-#     print(content)
+with open ("movies.txt", "a") as file:
+    content = file.write("New movie added. may i come in")             
+print(content)
 
 
 #Note taking app 
