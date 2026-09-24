@@ -35,3 +35,27 @@ def view_notes():
                 print("No notes found.")
     except FileNotFoundError:
         print("No notes found.")
+        
+def delete_notes():
+    with open(FILE_NAME, "w") as file:
+        file.write("")
+    print("All notes deleted successfully.")        
+    
+def main():
+    while True:
+        show_menu()
+        choice = input("Enter your choice (1-4): ")
+        
+        if choice == "1":
+            add_note()
+        elif choice == "2":
+            view_notes()
+        elif choice == "3":
+            delete_notes()
+        elif choice == "4":
+            print("Exiting the program.")
+            break
+        else:
+            print("Invalid choice. Please try again.")
+            
+    
