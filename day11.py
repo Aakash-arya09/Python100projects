@@ -17,15 +17,6 @@ except ValueError:
   print("Error: Invalid input. Please enter a valid number.")
 
 try:
-  # Code that might raise an exception
-except ExceptionType:
-  # Code to handle the exception
-else:
-  # Execute if no exception occurs
-finally:
-  # Always execute, even if an exception occurs
-
-try:
   num = int(input("Enter a number:"))
   result = 10 / num
 except ZeroDivisionError:
