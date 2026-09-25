@@ -70,14 +70,20 @@
 #     print("Error: Invalid input. Please enter a valid number.")      
               
               
-def add_numbers(num1, num2):
-     return num1 + num2
+# def add_numbers(num1, num2):
+#      return num1 + num2
 
-result = add_numbers(5, 10) 
-print("The sum is:", result)
-
-
+# result = add_numbers(5, 10) 
+# print("The sum is:", result)
 
 
 
 
+# square = [x**2 for x in range(1,11)]
+# print(square)
+
+
+
+# name = ["John", "Alice", "Bob", "Eve", "Charlie"]
+# short_name = [n for n in name if len(n) <= 4]
+# print(short_name)
