@@ -100,3 +100,6 @@ while True:
     print(f"An unexpected error occurred: {e}")
   finally:
     print("Thank you for using the Safe Calculator!... Restarting...")
+    
+    
+    #hello
