@@ -60,12 +60,24 @@
     
 
 
-try:
-    num = int(input("Enter a number: "))
-    result = 10 / num
-    print("Result: ", result)
-except ZeroDivisionError:
-    print("Error: Division by zero is not allowed.")
-except ValueError:
-    print("Error: Invalid input. Please enter a valid number.")      
+# try:
+#     num = int(input("Enter a number: "))
+#     result = 10 / num
+#     print("Result: ", result)
+# except ZeroDivisionError:
+#     print("Error: Division by zero is not allowed.")
+# except ValueError:
+#     print("Error: Invalid input. Please enter a valid number.")      
               
+              
+def add_numbers(num1, num2):
+     return num1 + num2
+
+result = add_numbers(5, 10) 
+print("The sum is:", result)
+
+
+
+
+
+
