@@ -84,7 +84,10 @@
 
 
 
-name = ["John", "Alice", "Bob", "Eve", "Charlie"]
-short_name = [n for n in name if len(n) <= 4]
-print(short_name)
+# name = ["John", "Alice", "Bob", "Eve", "Charlie"]
+# short_name = [n for n in name if len(n) <= 4]
+# print(short_name)
 
+
+import math
+print (math.sqrt(16))  # Output: 4.0
