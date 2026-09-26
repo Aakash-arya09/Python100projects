@@ -84,6 +84,7 @@
 
 
 
-# name = ["John", "Alice", "Bob", "Eve", "Charlie"]
-# short_name = [n for n in name if len(n) <= 4]
-# print(short_name)
+name = ["John", "Alice", "Bob", "Eve", "Charlie"]
+short_name = [n for n in name if len(n) <= 4]
+print(short_name)
+
