@@ -92,3 +92,26 @@
 # import math
 # print (math.sqrt(16))  # Output: 4.
 
+# with open ("dairy.txt", "a") as file:
+#     content = file.write("Day 2: I built a journal logger today.\n")
+
+
+# JOURNAL_FILE = "daily_journal.txt"
+
+# def add_entry():
+#     entry = input("Enter your journal entry: ")
+#     with open(JOURNAL_FILE, "a") as file:
+#         file.write(entry + "\n")
+#     print("Entry added successfully.")    
+    
+# def view_entries():
+#     try:
+#         with open(JOURNAL_FILE, "r") as file:
+#             content = file.read()
+#             if content:
+#                 print("Your journal entries:")
+#                 print(content)
+#             else:
+#                 print("No entries found.")
+#     except FileNotFoundError:
+#         print("No entries found.")
