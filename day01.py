@@ -40,3 +40,5 @@ print(f"Get ready to build something amazing today.")
 
 
 print ("Thank you for using the Welcome Message Generator! Have a great day ahead! 🌟")
+
+
