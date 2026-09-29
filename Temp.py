@@ -1,4 +1,5 @@
-# # # with open ("movies1.txt", "w") as file:
+#Temmp.p
+#  # # with open ("movies1.txt", "w") as file:
 # # #     content = file.write("New movie added.")             
 # # #     print(content)
 
