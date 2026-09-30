@@ -119,3 +119,22 @@
 
 #json data handling
 
+
+# # MINI TODO APP using JSON
+
+# import json
+# import os
+ 
+# TODO_FILE = "todo_list.json")
+
+# if not os.path.exists(TODO_FILE):
+#     with open(TODO_FILE, "w") as file:
+#         json.dump([], file)  # Initialize an empty list in the JSON file
+
+# def load_todo_list():
+#     with open(TODO_FILE, "r") as file:
+#         return json.load(file)
+
+# def save_task_list(todo_list):
+#     with open(TODO_FILE, "w") as file:
+#         json.dump(todo_list, file)
