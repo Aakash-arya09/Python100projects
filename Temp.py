@@ -138,3 +138,19 @@
 # def save_task_list(todo_list):
 #     with open(TODO_FILE, "w") as file:
 #         json.dump(todo_list, file)
+
+
+# from urllib import response
+
+# import requests
+
+# API_KEY = "3b95d5ceeb5fc644d66366733b450d5b"  #
+# city = "London"  # Replace with your desired city
+# url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}"
+
+# response = requests.get(url)
+# if response.status_code == 200:
+#     print("Weather data fetched successfully!")
+#     weather_data = response.json()
+# else:
+#     print("Failed to fetch weather data. Please check the city name or API key.")
