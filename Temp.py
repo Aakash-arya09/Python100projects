@@ -138,6 +138,3 @@
 # def save_task_list(todo_list):
 #     with open(TODO_FILE, "w") as file:
 #         json.dump(todo_list, file)
-
-
-#day 
