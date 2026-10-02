@@ -146,23 +146,23 @@
 
 # API_KEY = "3b95d5ceeb5fc644d66366733b450d5b"  #
 # city = "London"  # Replace with your desired city
-# url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}"
+url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}"
 
-# response = requests.get(url)
-# if response.status_code == 200:
-#     print("Weather data fetched successfully!")
-# #     weather_data = response.json()
-# else:
-#     print("Failed to fetch weather data. Please check the city name or API key.")
+response = requests.get(url)
+if response.status_code == 200:
+    print("Weather data fetched successfully!")
+#     weather_data = response.json()
+else:
+    print("Failed to fetch weather data. Please check the city name or API key.")
 
 
-# from datetime import datetime
-# current_time = datetime.now()
-# print("Current date and time:", current_time)
+from datetime import datetime
+current_time = datetime.now()
+print("Current date and time:", current_time)
 
-# event_date = datetime (2024, 6, 15, 10, 30)  # Example event date and time
-# print("Event date and time:", event_date)
+event_date = datetime (2024, 6, 15, 10, 30)  # Example event date and time
+print("Event date and time:", event_date)
 
-# current_time = datetime.now()
-# formatted_time = current_time.strftime("%m-%d-%Y %H:%M:%S")
-# print("Formatted time:", formatted_time)
+current_time = datetime.now()
+formatted_time = current_time.strftime("%m-%d-%Y %H:%M:%S")
+print("Formatted time:", formatted_time)
