@@ -176,14 +176,14 @@
 # url = "https://en.wikipedia.org/wiki/Python_(programming_language)"
 
 # Add a custom User-Agent header to mimic a web browser
-# headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-}
+# # headers = {
+#     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+# }
 
-# Pass the headers dictionary into the request
-response = requests.get(url, headers=headers)
+# # Pass the headers dictionary into the request
+# response = requests.get(url, headers=headers)
 
-if response.status_code == 200:
-    print(response.text)  # Print the first 500 characters of the page
-else:
-    print("Failed to fetch the web page. Status code:", response.status_code)
+# if response.status_code == 200:
+#     print(response.text)  # Print the first 500 characters of the page
+# else:
+#     print("Failed to fetch the web page. Status code:", response.status_code)
