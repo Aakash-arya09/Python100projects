@@ -177,8 +177,8 @@
 
 # Add a custom User-Agent header to mimic a web browser
 # headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-}
+#     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+# }
 
-# Pass the headers dictionary into the request
-response = requests.get(url, headers=headers)
+# # Pass the headers dictionary into the request
+# response = requests.get(url, headers=headers)
